@@ -1,0 +1,36 @@
+# ── Dataset thô (PhysioNet CirCor — public, tải từ physionet.org) ──
+heart-murmur-detection/data/raw/
+
+# ── Dữ liệu processed (generated, chạy lại notebook 03 Cell 1-4) ──
+heart-murmur-detection/data/processed/
+
+# ── Model checkpoints ──
+heart-murmur-detection/models/
+*.pt
+*.pth
+
+# ── Figures (generated từ notebook) ──
+heart-murmur-detection/figures/
+
+# ── Python cache ──
+__pycache__/
+*.py[cod]
+*.pyx.pxi
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── PDF (binary, lớn) ──
+*.pdf
+
+# ── Claude Code config cá nhân ──
+.claude/settings.local.json
+
+# ── File tên sai (artifact) ──
+heart-murmur-detection/0].to_string())
+
+# ── Môi trường ảo ──
+.venv/
+env/
+venv/
