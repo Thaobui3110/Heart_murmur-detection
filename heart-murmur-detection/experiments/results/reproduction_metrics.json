@@ -1,0 +1,41 @@
+{
+  "weighted_accuracy": 0.7725752508361204,
+  "auc_roc_binary": 0.9523491821068285,
+  "n_patients": 942,
+  "sensitivity": {
+    "Present": 0.9273743016759777,
+    "Unknown": 0.19117647058823528,
+    "Absent": 0.7438848920863309
+  },
+  "targets_plos": {
+    "weighted_accuracy": 0.798,
+    "auc_roc_binary": 0.947,
+    "sensitivity_present": 0.927,
+    "sensitivity_unknown": 0.309,
+    "sensitivity_absent": 0.776
+  },
+  "differences": {
+    "weighted_accuracy": -0.0254247491638796,
+    "auc_roc_binary": 0.005349182106828554,
+    "sensitivity_present": 0.00037430167597762853,
+    "sensitivity_unknown": -0.11782352941176472,
+    "sensitivity_absent": -0.032115107913669116
+  },
+  "confusion_matrix": {
+    "Present": {
+      "Present": 166,
+      "Unknown": 1,
+      "Absent": 12
+    },
+    "Unknown": {
+      "Present": 24,
+      "Unknown": 13,
+      "Absent": 31
+    },
+    "Absent": {
+      "Present": 131,
+      "Unknown": 47,
+      "Absent": 517
+    }
+  }
+}
